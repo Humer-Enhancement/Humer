@@ -1,0 +1,200 @@
+s##::##label##::##id
+void qemu_mutex_unlock_iothread ( void ) { }##::##1##::##4337
+static void null_end_frame ( AVFilterLink * inlink ) { }##::##1##::##2952
+static inline void gen_check_tlb_flush ( DisasContext * ctx ) { }##::##1##::##11365
+static void dump_data ( const uint8_t * data , int len ) { }##::##1##::##688
+static void null_draw_slice ( AVFilterLink * inlink , int y , int h , int slice_dir ) { }##::##1##::##5173
+static void s390_cpu_model_initfn ( Object * obj ) {##::##1##::##995
+void cpu_stop_current ( void ) { }##::##1##::##11332
+void qemu_main_loop_start ( void ) { }##::##1##::##3994
+void pause_all_vcpus ( void ) { }##::##1##::##4381
+void qemu_aio_wait_start ( void ) { }##::##1##::##523
+void qemu_aio_poll ( void ) { }##::##1##::##6133
+void resume_all_vcpus ( void ) { }##::##1##::##9494
+void qemu_cpu_kick ( void * env ) { }##::##1##::##10059
+static void vhost_commit ( MemoryListener * listener ) { }##::##1##::##12449
+static void s390_qemu_cpu_model_initfn ( Object * obj ) { }##::##1##::##43
+static void vhost_begin ( MemoryListener * listener ) { }##::##1##::##9272
+void kvm_arch_remove_all_hw_breakpoints ( void ) { }##::##1##::##3647
+static void dump_regs ( struct ucontext * uc ) { }##::##1##::##7817
+opts_check_list ( Visitor * v , Error * * errp ) { }##::##1##::##5558
+void qpci_iounmap ( QPCIDevice * dev , void * data ) { }##::##1##::##8751
+static void pxa2xx_screen_dump ( void * opaque , const char * filename ) { }##::##1##::##363
+char * target_strerror ( int err ) { return strerror ( target_to_host_errno ( err ) ) ;##::##1##::##10749
+int slirp_can_output ( void ) { return 1 ; }##::##1##::##4271
+int qemu_reset_requested_get ( void ) { return reset_requested ; }##::##1##::##6814
+static void slirp_cleanup ( void ) { WSACleanup ( ) ; }##::##1##::##3878
+static void ide_test_quit ( void ) { qtest_end ( ) ; }##::##1##::##4820
+void raise_irq_cpu_hotplug ( void ) { qemu_irq_raise ( irq_cpu_hotplug ) ; }##::##1##::##7867
+static void gen_wsr_debugcause ( DisasContext * dc , uint32_t sr , TCGv_i32 v ) { }##::##1##::##1770
+static void gen_wsr_prid ( DisasContext * dc , uint32_t sr , TCGv_i32 v ) { }##::##1##::##8421
+void throttle_get_config ( ThrottleState * ts , ThrottleConfig * cfg ) { * cfg = ts -> cfg ;##::##1##::##8926
+static void qemu_event_increment ( void ) { SetEvent ( qemu_event_handle ) ; }##::##1##::##3046
+void wdt_i6300esb_init ( void ) { watchdog_add_model ( & model ) ; }##::##1##::##6713
+void OPPROTO op_fdiv_ST0_FT0 ( void ) { ST0 /= FT0 ; }##::##1##::##10923
+DISAS_INSN ( frestore ) { qemu_assert ( 0 , "FRESTORE not implemented" ) ; }##::##1##::##11260
+static void phys_sections_clear ( void ) { phys_sections_nb = 0 ; }##::##1##::##12352
+DISAS_INSN ( fsave ) { qemu_assert ( 0 , "FSAVE not implemented" ) ; }##::##1##::##7638
+void g_free ( void * mem ) { free ( mem ) ; }##::##1##::##2431
+int qemu_cpu_is_self ( void * env ) { return 1 ; }##::##1##::##10328
+static void scale_coefficients ( AC3EncodeContext * s ) { return ; }##::##1##::##2800
+int qemu_shutdown_requested_get ( void ) { return shutdown_requested ; }##::##1##::##4326
+bool guest_validate_base ( unsigned long guest_base ) { return 1 ; }##::##1##::##7735
+static void block_migration_cancel ( void * opaque ) { blk_mig_cleanup ( ) ; }##::##1##::##3152
+static void qemu_mutex_unlock_iothread ( void ) { qemu_mutex_unlock ( & qemu_global_mutex ) ; }##::##1##::##6736
+void virtio_scsi_exit ( VirtIODevice * vdev ) { virtio_cleanup ( vdev ) ; }##::##1##::##832
+static void * qpa_audio_init ( void ) { return & conf ; }##::##1##::##8783
+static int coroutine_fn bdrv_mirror_top_flush ( BlockDriverState * bs ) { return bdrv_co_flush ( bs -> backing -> bs ) ;##::##1##::##10650
+static void libschroedinger_decode_frame_free ( void * frame ) { schro_frame_unref ( frame ) ; }##::##1##::##5239
+void helper_frndint ( void ) { ST0 = rint ( ST0 ) ; }##::##1##::##8001
+static int nbd_can_accept ( void ) { return nb_fds < shared ; }##::##1##::##10712
+static int hdev_has_zero_init ( BlockDriverState * bs ) { return 0 ; }##::##1##::##2113
+static int get_current_cpu ( void ) { return cpu_single_env -> cpu_index ; }##::##1##::##411
+int cpu_get_dump_info ( ArchDumpInfo * info ) { return - 1 ; }##::##1##::##535
+static void nbd_close ( BlockDriverState * bs ) { nbd_teardown_connection ( bs ) ; }##::##1##::##2752
+void qmp_stop ( Error * * errp ) { vm_stop ( RUN_STATE_PAUSED ) ; }##::##1##::##6231
+void OPPROTO op_fdiv_STN_ST0 ( void ) { ST ( PARAM1 ) /= ST0 ; }##::##1##::##6268
+void OPPROTO op_fdivr_ST0_FT0 ( void ) { ST0 = FT0 / ST0 ; }##::##1##::##8584
+int monitor_fdset_dup_fd_remove ( int dupfd ) { return - 1 ; }##::##1##::##3826
+uint64_t migrate_max_downtime ( void ) { return max_downtime ; }##::##1##::##4253
+void OPPROTO op_udivx_T1_T0 ( void ) { T0 /= T1 ; FORCE_RET ( ) ;##::##1##::##1741
+void qmp_migrate_cancel ( Error * * errp ) { migrate_fd_cancel ( migrate_get_current ( ) ) ; }##::##1##::##3140
+AVVDPAUContext * av_vdpau_alloc_context ( void ) { return av_mallocz ( sizeof ( AVVDPAUContext ) ) ; }##::##1##::##3656
+BlockDeviceInfoList * qmp_query_named_block_nodes ( Error * * errp ) { return bdrv_named_nodes_list ( ) ; }##::##1##::##3800
+static void boston_register_types ( void ) { type_register_static ( & boston_device ) ; }##::##1##::##2281
+void pvpanic_init ( ISABus * bus ) { isa_create_simple ( bus , TYPE_ISA_PVPANIC_DEVICE ) ; }##::##1##::##4486
+static void blk_mig_unlock ( void ) { qemu_mutex_unlock ( & block_mig_state . lock ) ; }##::##1##::##5674
+int64_t qmp_query_migrate_cache_size ( Error * * errp ) { return migrate_xbzrle_cache_size ( ) ; }##::##1##::##5880
+static int qcow_check ( BlockDriverState * bs ) { return qcow2_check_refcounts ( bs ) ; }##::##1##::##7009
+static void blk_mig_lock ( void ) { qemu_mutex_lock ( & block_mig_state . lock ) ; }##::##1##::##851
+void av_set_cpu_flags_mask ( int mask ) { cpu_flags = get_cpu_flags ( ) & mask ; }##::##1##::##8899
+static void __attribute__ ( ( constructor ) ) st_init ( void ) { atexit ( st_flush_trace_buffer ) ; }##::##1##::##6202
+int qemu_file_get_error ( QEMUFile * f ) { return f -> last_error ; }##::##1##::##11464
+int64_t qemu_file_get_rate_limit ( QEMUFile * f ) { return f -> xfer_limit ; }##::##1##::##52
+static void block_job_ref ( BlockJob * job ) { ++ job -> refcnt ; }##::##1##::##7334
+void qemu_file_reset_rate_limit ( QEMUFile * f ) { f -> bytes_xfer = 0 ; }##::##1##::##8257
+size_t qsb_get_length ( const QEMUSizedBuffer * qsb ) { return qsb -> used ; }##::##1##::##9477
+void remove_migration_state_change_notifier ( Notifier * notify ) { notifier_remove ( notify ) ; }##::##1##::##6789
+static void aio_rfifolock_cb ( void * opaque ) { aio_notify ( opaque ) ; }##::##1##::##9543
+static void buffer_reset ( Buffer * buffer ) { buffer -> offset = 0 ; }##::##1##::##2285
+bool migration_in_setup ( MigrationState * s ) { return s -> state == MIG_STATE_SETUP ; }##::##1##::##7565
+bool migration_has_finished ( MigrationState * s ) { return s -> state == MIG_STATE_COMPLETED ; }##::##1##::##8025
+I2CBus * aux_get_i2c_bus ( AUXBus * bus ) { return aux_bridge_get_i2c_bus ( bus -> bridge ) ; }##::##1##::##3619
+int monitor_fdset_dup_fd_remove ( int dup_fd ) { return monitor_fdset_dup_fd_find_remove ( dup_fd , true ) ; }##::##1##::##8005
+void migrate_del_blocker ( Error * reason ) { migration_blockers = g_slist_remove ( migration_blockers , reason ) ; }##::##1##::##8269
+void migrate_add_blocker ( Error * reason ) { migration_blockers = g_slist_prepend ( migration_blockers , reason ) ; }##::##1##::##8437
+static void term_exit ( void ) { tcsetattr ( 0 , TCSANOW , & oldtty ) ; }##::##1##::##94
+static void flatview_ref ( FlatView * view ) { atomic_inc ( & view -> ref ) ; }##::##1##::##11137
+static inline void test_server_connect ( TestServer * server ) { test_server_create_chr ( server , ",reconnect=1" ) ; }##::##1##::##2240
+static void ram_decompress_close ( RamDecompressState * s ) { inflateEnd ( & s -> zstream ) ; }##::##1##::##3084
+av_cold void ff_lpc_end ( LPCContext * s ) { av_freep ( & s -> windowed_samples ) ; }##::##1##::##490
+static void uninit ( struct vf_instance * vf ) { free ( vf -> priv ) ; }##::##1##::##8089
+static inline I2CBus * aux_bridge_get_i2c_bus ( AUXTOI2CState * bridge ) { return bridge -> i2c_bus ; }##::##1##::##876
+PPC_OP ( subfeo ) { do_subfeo ( ) ; RETURN ( ) ; }##::##1##::##12176
+PPC_OP ( addeo ) { do_addeo ( ) ; RETURN ( ) ; }##::##1##::##2074
+PPC_OP ( icbi ) { do_icbi ( ) ; RETURN ( ) ; }##::##1##::##2596
+PPC_OP ( tlbie ) { do_tlbie ( ) ; RETURN ( ) ; }##::##1##::##5406
+static void sigbus_handler ( int signal ) { siglongjmp ( sigjump , 1 ) ; }##::##1##::##12277
+static int null_filter_samples ( AVFilterLink * link , AVFilterBufferRef * samplesref ) { return 0 ; }##::##1##::##1662
+static int buffer_empty ( Buffer * buffer ) { return buffer -> offset == 0 ; }##::##1##::##2574
+static int decode_interrupt_cb ( void * ctx ) { return received_nb_signals > transcode_init_done ; }##::##1##::##7636
+static bool megasas_use_msi ( MegasasState * s ) { return s -> msi != ON_OFF_AUTO_OFF ; }##::##1##::##8929
+static void vp8_decode_flush ( AVCodecContext * avctx ) { vp8_decode_flush_impl ( avctx , 0 , 0 ) ; }##::##1##::##12283
+void qemu_system_guest_panicked ( void ) { qapi_event_send_guest_panicked ( GUEST_PANIC_ACTION_PAUSE , & error_abort ) ; vm_stop ( RUN_STATE_GUEST_PANICKED ) ;##::##1##::##9141
+void event_notifier_cleanup ( EventNotifier * e ) { CloseHandle ( e -> event ) ; }##::##1##::##3216
+static bool block_is_active ( void * opaque ) { return block_mig_state . blk_enable == 1 ; }##::##1##::##10997
+const char * error_get_pretty ( Error * err ) { return err -> msg ; }##::##1##::##4177
+void qemu_update_position ( QEMUFile * f , size_t size ) { f -> pos += size ; }##::##1##::##6534
+uint64_t blk_mig_bytes_remaining ( void ) { return blk_mig_bytes_total ( ) - blk_mig_bytes_transferred ( ) ; }##::##1##::##6959
+void qmp_qmp_capabilities ( Error * * errp ) { cur_mon -> qmp . in_command_mode = true ; }##::##1##::##10623
+static void reset_used_window ( DisasContext * dc ) { dc -> used_window = 0 ; }##::##1##::##11692
+static int qemu_shutdown_requested ( void ) { return atomic_xchg ( & shutdown_requested , 0 ) ; }##::##1##::##11813
+static int bdrv_qed_check ( BlockDriverState * bs , BdrvCheckResult * result ) { return - ENOTSUP ; }##::##1##::##11876
+static inline bool vtd_queued_inv_enable_check ( IntelIOMMUState * s ) { return s -> iq_tail == 0 ; }##::##1##::##4910
+uint64_t ram_bytes_remaining ( void ) { return ram_state -> migration_dirty_pages * TARGET_PAGE_SIZE ; }##::##1##::##12174
+static void bitmap_free ( Qcow2Bitmap * bm ) { g_free ( bm -> name ) ; g_free ( bm ) ;##::##1##::##4829
+static void set_sigmask ( const sigset_t * set ) { do_sigprocmask ( SIG_SETMASK , set , NULL ) ; }##::##1##::##3915
+static void gen_ove_ov ( DisasContext * dc , TCGv ov ) { gen_helper_ove ( cpu_env , ov ) ; }##::##1##::##40
+void vnc_client_error ( VncState * vs ) { vnc_client_io_error ( vs , - 1 , EINVAL ) ; }##::##1##::##8102
+static void cabac_reinit ( HEVCLocalContext * lc ) { skip_bytes ( & lc -> cc , 0 ) ; }##::##1##::##10290
+static bool is_special_wait_psw ( CPUState * cs ) { return cs -> kvm_run -> psw_addr == 0xfffUL ; }##::##1##::##10802
+static void vfio_listener_release ( VFIOContainer * container ) { memory_listener_unregister ( & container -> iommu_data . listener ) ; }##::##1##::##11797
+int avcodec_default_reget_buffer ( AVCodecContext * s , AVFrame * pic ) { av_assert0 ( 0 ) ; }##::##1##::##6499
+static int serial_can_receive ( SerialState * s ) { return ! ( s -> lsr & UART_LSR_DR ) ; }##::##1##::##8324
+static inline int media_present ( IDEState * s ) { return ( s -> nb_sectors > 0 ) ; }##::##1##::##9119
+void qemu_file_set_rate_limit ( QEMUFile * f , int64_t limit ) { f -> xfer_limit = limit ; }##::##1##::##9798
+static uint8_t * buffer_end ( Buffer * buffer ) { return buffer -> buffer + buffer -> offset ; }##::##1##::##7072
+static inline int mov_stsc_index_valid ( int index , int count ) { return index + 1 < count ; }##::##1##::##11606
+static void trigger_ascii_console_data ( void * opaque , int n , int level ) { sclp_service_interrupt ( 0 ) ; }##::##1##::##5585
+static void trigger_console_data ( void * opaque , int n , int level ) { sclp_service_interrupt ( 0 ) ; }##::##1##::##873
+av_cold void ff_vc2enc_free_transforms ( VC2TransformContext * s ) { av_freep ( & s -> buffer ) ; }##::##1##::##6607
+static void free_texture ( void * opaque , uint8_t * data ) { ID3D11Texture2D_Release ( ( ID3D11Texture2D * ) opaque ) ; }##::##1##::##11049
+static uint64_t addrrange_end ( AddrRange r ) { return r . start + r . size ; }##::##1##::##4705
+void qdev_prop_register_global ( GlobalProperty * prop ) { QTAILQ_INSERT_TAIL ( & global_props , prop , next ) ; }##::##1##::##9752
+static av_always_inline int lcg_random ( int previous_val ) { return previous_val * 1664525 + 1013904223 ; }##::##1##::##3134
+void OPPROTO op_addzeo ( void ) { do_addzeo ( ) ; RETURN ( ) ; }##::##1##::##1209
+void OPPROTO op_subfo ( void ) { do_subfo ( ) ; RETURN ( ) ; }##::##1##::##5062
+void OPPROTO op_subfco ( void ) { do_subfco ( ) ; RETURN ( ) ; }##::##1##::##5161
+void OPPROTO op_addco ( void ) { do_addco ( ) ; RETURN ( ) ; }##::##1##::##7782
+void OPPROTO op_405_check_ov ( void ) { do_405_check_ov ( ) ; RETURN ( ) ; }##::##1##::##8333
+const char * memory_region_name ( const MemoryRegion * mr ) { return object_get_canonical_path_component ( OBJECT ( mr ) ) ; }##::##1##::##10562
+void qmp_blockdev_backup ( BlockdevBackup * arg , Error * * errp ) { do_blockdev_backup ( arg , NULL , errp ) ; }##::##1##::##5629
+static void disas_extract ( DisasContext * s , uint32_t insn ) { unsupported_encoding ( s , insn ) ; }##::##1##::##1145
+const char * object_get_typename ( Object * obj ) { return obj -> class -> type -> name ; }##::##1##::##12408
+void helper_store_sdr1 ( CPUPPCState * env , target_ulong val ) { ppc_store_sdr1 ( env , val ) ; }##::##1##::##2034
+static void do_info_trace ( Monitor * mon ) { st_print_trace ( ( FILE * ) mon , & monitor_fprintf ) ; }##::##1##::##7563
+static int can_safely_read ( GetBitContext * gb , int bits ) { return get_bits_left ( gb ) >= bits ; }##::##1##::##8691
+static void boston_flash_write ( void * opaque , hwaddr addr , uint64_t val , unsigned size ) { }##::##1##::##11050
+static void memory_region_destructor_alias ( MemoryRegion * mr ) { memory_region_unref ( mr -> alias ) ; }##::##1##::##6418
+int kvm_arch_insert_sw_breakpoint ( CPUState * cpu , struct kvm_sw_breakpoint * bp ) { return - EINVAL ; }##::##1##::##10787
+static int is_rndis ( USBNetState * s ) { return s -> dev . config -> bConfigurationValue == DEV_RNDIS_CONFIG_VALUE ; }##::##1##::##1200
+static void breakpoint_invalidate ( CPUState * cpu , target_ulong pc ) { tb_flush ( cpu ) ; }##::##1##::##4615
+int kvm_arch_remove_sw_breakpoint ( CPUState * cpu , struct kvm_sw_breakpoint * bp ) { return - EINVAL ; }##::##1##::##7028
+void helper_mtc0_hwrena ( CPUMIPSState * env , target_ulong arg1 ) { env -> CP0_HWREna = arg1 & 0x0000000F ; }##::##1##::##9979
+static const char * addr2str ( target_phys_addr_t addr ) { return nr2str ( ehci_mmio_names , ARRAY_SIZE ( ehci_mmio_names ) , addr ) ; }##::##1##::##10734
+static void dec_ill ( DisasContext * dc ) { cpu_abort ( dc -> env , "unknown opcode 0x%02x\n" , dc -> opcode ) ; }##::##1##::##12138
+void migration_incoming_state_destroy ( void ) { struct MigrationIncomingState * mis = migration_incoming_get_current ( ) ; qemu_event_destroy ( & mis -> main_thread_load_event ) ;##::##1##::##4134
+static void pci_ehci_config ( void ) { qpci_io_writew ( ehci1 . dev , ehci1 . base + 0x60 , 1 ) ; }##::##1##::##9871
+static inline bool handler_is_async ( const mon_cmd_t * cmd ) { return cmd -> flags & MONITOR_CMD_ASYNC ; }##::##1##::##934
+static bool vmxnet3_verify_driver_magic ( hwaddr dshmem ) { return ( VMXNET3_READ_DRV_SHARED32 ( dshmem , magic ) == VMXNET3_REV1_MAGIC ) ; }##::##1##::##2984
+bool qemu_file_is_writable ( QEMUFile * f ) { return f -> ops -> writev_buffer || f -> ops -> put_buffer ; }##::##1##::##5417
+void qmp_drive_backup ( DriveBackup * arg , Error * * errp ) { return do_drive_backup ( arg , NULL , errp ) ; }##::##1##::##10573
+void object_property_allow_set_link ( Object * obj , const char * name , Object * val , Error * * errp ) { }##::##1##::##4127
+static inline int64_t add64 ( const int64_t a , const int64_t b ) { return a + b ; }##::##1##::##5103
+static inline int64_t sub64 ( const int64_t a , const int64_t b ) { return a - b ; }##::##1##::##8987
+static void spr_read_xer ( DisasContext * ctx , int gprn , int sprn ) { gen_read_xer ( cpu_gpr [ gprn ] ) ; }##::##1##::##6546
+void * qpci_legacy_iomap ( QPCIDevice * dev , uint16_t addr ) { return ( void * ) ( uintptr_t ) addr ; }##::##1##::##11788
+static uint8_t lag_calc_zero_run ( int8_t x ) { return ( x << 1 ) ^ ( x >> 7 ) ; }##::##1##::##1840
+void apic_reset_irq_delivered ( void ) { trace_apic_reset_irq_delivered ( apic_irq_delivered ) ; apic_irq_delivered = 0 ; }##::##1##::##3154
+void OPPROTO op_addo ( void ) { do_addo ( ) ; RETURN ( ) ; }##::##1##::##6926
+int kvm_arch_insert_hw_breakpoint ( target_ulong addr , target_ulong len , int type ) { return - EINVAL ; }##::##1##::##10941
+static inline int IRQ_testbit ( IRQ_queue_t * q , int n_IRQ ) { return test_bit ( q -> queue , n_IRQ ) ; }##::##1##::##12385
+static inline int divide3 ( int x ) { return ( ( x + 1 ) * 21845 + 10922 ) >> 16 ; }##::##1##::##1447
+int kvm_arch_remove_hw_breakpoint ( target_ulong addr , target_ulong len , int type ) { return - EINVAL ; }##::##1##::##4792
+static void hmp_logfile ( Monitor * mon , const QDict * qdict ) { qemu_set_log_filename ( qdict_get_str ( qdict , "filename" ) ) ; }##::##1##::##5050
+static bool key_is_missing ( const BlockInfo * bdev ) { return ( bdev -> inserted && bdev -> inserted -> encryption_key_missing ) ; }##::##1##::##10084
+static int16_t square_root ( int val ) { return ( ff_sqrt ( val << 1 ) >> 1 ) & ( ~ 1 ) ; }##::##1##::##6010
+void hmp_pci_del ( Monitor * mon , const QDict * qdict ) { pci_device_hot_remove ( mon , qdict_get_str ( qdict , "pci_addr" ) ) ; }##::##1##::##7610
+void run_on_cpu ( CPUState * env , void ( * func ) ( void * data ) , void * data ) { func ( data ) ; }##::##1##::##4617
+void qemu_system_vmstop_request ( RunState state ) { vmstop_requested = state ; qemu_notify_event ( ) ; }##::##1##::##592
+PPC_OP ( set_T0 ) { T0 = PARAM ( 1 ) ; RETURN ( ) ; }##::##1##::##5934
+PPC_OP ( set_T1 ) { T1 = PARAM ( 1 ) ; RETURN ( ) ; }##::##1##::##9444
+static MemoryRegion * pc_dimm_get_memory_region ( PCDIMMDevice * dimm ) { return host_memory_backend_get_memory ( dimm -> hostmem , & error_abort ) ; }##::##1##::##12203
+static void master_abort_mem_write ( void * opaque , hwaddr addr , uint64_t val , unsigned size ) { }##::##1##::##5034
+static int configure_filtergraph ( FilterGraph * fg ) { return fg -> graph_desc ? configure_complex_filter ( fg ) : configure_video_filters ( fg ) ; }##::##1##::##486
+TPMVersion tpm_tis_get_tpm_version ( Object * obj ) { TPMState * s = TPM ( obj ) ; return tpm_backend_get_tpm_version ( s -> be_driver ) ;##::##1##::##161
+static int qemu_chr_open_win_con ( QemuOpts * opts , CharDriverState * * chr ) { return qemu_chr_open_win_file ( GetStdHandle ( STD_OUTPUT_HANDLE ) , chr ) ; }##::##1##::##5641
+void aio_context_set_poll_params ( AioContext * ctx , int64_t max_ns , Error * * errp ) { error_setg ( errp , "AioContext polling is not implemented on Windows" ) ; }##::##1##::##7815
+static const AVClass * ff_avio_child_class_next ( const AVClass * prev ) { return prev ? NULL : & ffurl_context_class ; }##::##1##::##2957
+static bool aux_bus_is_bridge ( AUXBus * bus , DeviceState * dev ) { return ( dev == DEVICE ( bus -> bridge ) ) ; }##::##1##::##4137
+PPC_OP ( setlr ) { regs -> lr = PARAM1 ; RETURN ( ) ; }##::##1##::##5759
+PPC_OP ( test_ctr ) { T0 = regs -> ctr ; RETURN ( ) ; }##::##1##::##6855
+static uint64_t ahci_alloc ( AHCIQState * ahci , size_t bytes ) { return qmalloc ( ahci -> parent , bytes ) ; }##::##1##::##11517
+static void virtio_scsi_bad_req ( void ) { error_report ( "wrong size for virtio-scsi headers" ) ; exit ( 1 ) ; }##::##1##::##2257
+void rng_backend_open ( RngBackend * s , Error * * errp ) { object_property_set_bool ( OBJECT ( s ) , true , "opened" , errp ) ; }##::##1##::##5516
+static void ehci_trace_itd ( EHCIState * s , target_phys_addr_t addr , EHCIitd * itd ) { trace_usb_ehci_itd ( addr , itd -> next ) ; }##::##1##::##2912
+static void monitor_data_destroy ( Monitor * mon ) { QDECREF ( mon -> outbuf ) ; qemu_mutex_destroy ( & mon -> out_lock ) ;##::##1##::##8298
+static inline int popcountl ( unsigned long l ) { return BITS_PER_LONG == 32 ? ctpop32 ( l ) : ctpop64 ( l ) ; }##::##1##::##11976
+static void breakpoint_invalidate ( CPUArchState * env , target_ulong pc ) { tb_invalidate_phys_addr ( cpu_get_phys_page_debug ( env , pc ) ) ; }##::##1##::##3546
+static void load_tco ( const TestData * d ) { qpci_io_writew ( d -> dev , d -> tco_io_base + TCO_RLD , 4 ) ; }##::##1##::##67
+void ppc970_irq_init ( CPUState * env ) { env -> irq_inputs = ( void * * ) qemu_allocate_irqs ( & ppc970_set_irq , env , 7 ) ; }##::##1##::##5745
