@@ -2,9 +2,8 @@
 
 *Enhancing Deep Learning-based Vulnerability Detection by Modeling Human Learning Procedures*
 
-This is the open-source code repository for paper "Enhancing Deep Learning-based Vulnerability Detection by Modeling Human Learning Procedures"
-
-<img width="954" alt="image" src="https://user-images.githubusercontent.com/126872092/222766179-33e753bf-9fd3-4f69-b85e-ec12dde9d143.png">
+This is a part of the open-source code repository for paper "Enhancing Deep Learning-based Vulnerability Detection by Modeling Human Learning Procedures".
+Other codes, datas, and models will be uploaded.
 
 
 ## Getting Started
